@@ -4,7 +4,7 @@ from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
-
+# Let's trigger Github's workflow action to run pytest
 
 app = FastAPI(title="Predicting Wine Class with batching")
 
